@@ -62,7 +62,7 @@ button{
 }
 
 @media(max-width: 450px){
-  *{
-    font-size: small;
-  }
+    main{
+      width: 300px
+    }
 }
