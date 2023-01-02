@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/images/password.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Gerador de senhas</title>
+</head>
+<body>
+  <main>
+    <input id="inputPasswordId" type="text">
+    <div>
+    <input id="inputLengthId" type="range" min="6" max="15">
+    <label for="inputLengthId"></label>
+  </div>
+  <div>
+    <input type="checkbox" id="chkLowerId">
+    <label for="chkLowerId">Letras minúscula</label>
+  </div>
+  <div>
+    <input type="checkbox" id="chkUpperId">
+    <label for="chkUpperId">Letras maiúsculas</label>
+  </div>
+  <div>
+    <input type="checkbox" id="chkNumberId">
+    <label for="chNumberId">Números</label>
+  </div>
+  <div>
+    <input type="checkbox" id="chkSymbolsId">
+    <label for="chSymbolsId">Símbolos</label>
+  </div>
+  <button class="btnGerar" onclick="reset()">Gerar</button>
+  <button class="btnCopy" onclick="copy()">Copiar <i class="fa-regular fa-copy"></i></button>
+  <p><span class="alert"></span></p>
+  
+  </main>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="https://kit.fontawesome.com/f47bb10289.js" crossorigin="anonymous"></script>
+</html>
