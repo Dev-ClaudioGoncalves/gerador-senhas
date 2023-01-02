@@ -63,6 +63,14 @@ button{
 
 @media(max-width: 450px){
     main{
-      width: 300px
+      width: 250px;
+      padding: 10px;
+    }
+    *{
+      font-size: 14px;
+    }
+
+    input,input[type=range],button {
+      width: 80%;
     }
 }
